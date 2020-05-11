@@ -1,0 +1,18 @@
+[submodule "CraftTenkore"]
+	path = CraftTenkore
+	url = https://github.com/tsunko/CraftTenkore
+[submodule "Crux"]
+	path = Crux
+	url = https://github.com/tsunko/Crux
+[submodule "Highlighter"]
+	path = Highlighter
+	url = https://github.com/tsunko/Highlighter
+[submodule "Perfection"]
+	path = Perfection
+	url = https://github.com/tsunko/Perfection
+[submodule "SwissCheese"]
+	path = SwissCheese
+	url = https://github.com/tsunko/SwissCheese
+[submodule "Tenkore"]
+	path = Tenkore
+	url = https://github.com/tsunko/Tenkore

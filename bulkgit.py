@@ -15,11 +15,12 @@ for i in range(0, len(sys.argv)):
         argStart += 1
     if arg.startswith("-i:"):
         ignore.append(arg.split(":")[1].lower())
+        print("==> Set to ignore " + arg.split(":")[1], flush=True)
         argStart += 1
         
-repos = glob(path + "/*")
+repos = glob(path)
 for repo in repos:
-    if(repo.lower() in ignore):
+    if(repo.lower()[:-1] in ignore):
         print("==> Ignoring " + repo, flush=True)
         continue
     args = ' '.join(sys.argv[argStart:]).strip();
